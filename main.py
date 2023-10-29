@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup as BS
+import csv
 
 p = 1
 
@@ -8,6 +9,16 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
 }
 
+
+# class Printer:
+#     Name = ""
+#     Actual = ""
+#
+#     def __init__(self, n, a):
+#         self.Name = n
+#         self.Actual = a
+
+result_data = []
 while True:
     url = "https://global.pantum.com/product-center/p-" + str(p) + "/#content"
     page = requests.get(url, headers=headers)
@@ -29,12 +40,32 @@ while True:
     except Exception:
         have_data = False
 
+    # with open("pantum_result_data.csc", "w") as file:
+    #     wr = csv.writer(file)
+    #     wr.writerow(
+    #         ("Название_модели", "Актуальность")
+    #     )
+
     if have_data and len(printers):
         for i in range(0, len(printers)):
             if i >= len(is_new_hot_device):
-                print(printers[i].text.strip())
+                #print(printers[i].text.strip())
+                result_data.append(printers[i].text.strip())
             elif len(is_new_hot_device):
-                print(printers[i].text.strip() + " " + is_new_hot_device[i].text.strip().upper())
+                #print(printers[i].text.strip() + " " + is_new_hot_device[i].text.strip().upper())
+                result_data.append(printers[i].text.strip() + " " + is_new_hot_device[i].text.strip().upper())
         p += 1
     else:
         break
+print(result_data)
+with open("pantum_result_data.csv", "w") as file:
+    wr = csv.writer(file)
+    wr.writerow(
+            ("Название_модели", "Актуальность")
+       )
+
+with open("pantum_result_data.csv", "a") as file:
+    wr = csv.writer(file)
+    wr.writerows(
+        result_data
+    )
