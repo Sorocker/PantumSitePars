@@ -1,231 +1,60 @@
-Õ‡Á‚‡ÌËÂ_ÏÓ‰ÂÎË,¿ÍÚÛ‡Î¸ÌÓÒÚ¸
-"
-",M,6,5,5,0,N,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,2,5,0,0,W, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",C,M,2,2,0,0,F,D,W, ,C,o,l,o,r, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,7,2,0,0,F,D,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-", ,"
-","
-"
-"
-",M,7,2,0,0,F,D,N, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,7,2,0,0,F,D, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,7,1,0,5,D,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,3,3,0,5,D,N, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,3,3,0,0,D,N, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,3,3,0,0,D,W, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,6,0,0,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,6,0,0,N,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,5,5,0,N, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,5,0,0,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,5,0,0, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,5,0,0,N, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,2,5,1,8, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,2,5,1,6, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, , ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",C,P,1,1,0,0, ,C,o,l,o,r, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,7,3,1,0,D,N, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",B,M,5,1,0,0,F,D,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",B,M,5,1,0,0,F,D,N, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",B,M,5,1,0,0,A,D,N, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",B,P,5,1,0,0,D,N, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",C,M,1,1,0,0,A,D,N, ,C,o,l,o,r, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",C,M,1,1,0,0,D,N, ,C,o,l,o,r, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",C,M,1,1,0,0,D,W, ,C,o,l,o,r, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",C,P,1,1,0,0, ,C,o,l,o,r, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",C,P,2,2,0,0,D,W, ,C,o,l,o,r, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,7,1,0,5,D,N, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,2,5,0,9,W, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,2,2,0,0, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,6,0,0, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,5,5,0,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,5,5,0, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,3,0,1,0,D, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,2,5,1,6, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, , ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,8,0,0,F,D,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,5,5,0, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,3,0,1,0,D, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,3,0,1,0,D,W, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,8,0,0,F,D,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,7,3,0,0,F,D,N, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",P,2,5,1,6, ,M,o,n,o, ,l,a,s,e,r, ,s,i,n,g,l,e, ,f,u,n,c,t,i,o,n, , ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,7,0,0,D, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
-"
-",M,6,7,0,0,D,W, ,M,o,n,o, ,l,a,s,e,r, ,m,u,l,t,i,f,u,n,c,t,i,o,n, ,p,r,i,n,t,e,r,"
-","
-","
-"
+–ù–∞–∑–≤–∞–Ω–∏–µ_–º–æ–¥–µ–ª–∏,–ê–∫—Ç—É–∞–ª—å–Ω–æ—Å—Ç—å
+BM270ADN Monochrome laser multifunction printer,New
+BM5100ADW Mono laser multifunction printer,New
+BP5100DW Mono laser single function printer,New
+CM1100ADW Color laser multifunction printer,New
+CP1100DW Color laser single function printer,New
+P3305DW Mono laser single function printer,Hot
+P2500 Mono laser single function printer,Hot
+M6500NW Mono laser multifunction printer,Hot
+CM270ADN Color laser multifunction printer,New
+CM330ADN Color laser multifunction printer,New
+CM420ADN Color laser multifunction printer,New
+M6550NW Mono laser multifunction printer,
+BM330ADN Monochrome laser multifunction printer,New
+BM420ADN Monochrome laser multifunction printer,New
+P2500W Mono laser single function printer,
+CM2200FDW Color laser multifunction printer,
+M7200FDW Mono laser multifunction printer,
+M7200FDN Mono laser multifunction printer,
+M7200FD Mono laser multifunction printer,
+M7105DW Mono laser multifunction printer,
+P3305DN Mono laser single function printer,
+P3300DN Mono laser single function printer,
+P3300DW Mono laser single function printer,
+M6600W Mono laser multifunction printer,
+M6600NW Mono laser multifunction printer,
+M6550N Mono laser multifunction printer,
+M6500W Mono laser multifunction printer,
+M6500 Mono laser multifunction printer,
+M6500N Mono laser multifunction printer,
+P2518 Mono laser single function printer,
+BP5100DN Mono laser single function printer,
+CM1100ADN Color laser multifunction printer,
+CM1100DN Color laser multifunction printer,
+CM1100DW Color laser multifunction printer,
+CP1100 Color laser single function printer,
+CP2200DW Color laser single function printer,
+CM1100ADN Color laser multifunction printer,
+BP5100DN Mono laser single function printer,
+BM5100ADN Mono laser multifunction printer,
+BM5100FDN Mono laser multifunction printer,
+BM5100FDW Mono laser multifunction printer,
+P2509 Mono laser single function printer,
+P2509W Mono laser single function printer,
+P2200 Mono laser single function printer,
+M6600 Mono laser multifunction printer,
+M6550W Mono laser multifunction printer,
+M6550 Mono laser multifunction printer,
+P3010D Mono laser single function printer,
+P3010DW Mono laser single function printer,
+M6800FDW Mono laser multifunction printer,
+M7300FDN Mono laser multifunction printer,
+M7105DN Mono laser multifunction printer,
+P2516 Mono laser single function  printer,
+M6700DW Mono laser multifunction printer,
+M7105DN Mono laser multifunction printer,
+M6700D Mono laser multifunction printer,
+M6700DW Mono laser multifunction printer,
+P2516 Mono laser single function  printer,
+M7300FDW Mono laser multifunction printer,
