@@ -9,63 +9,21 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
 }
 
+with open("pantum_result_data.csv", 'w', newline='', encoding='utf-8') as file:
+    wr = csv.writer(file)
+    wr.writerow(("Название_модели", "Актуальность"))
 
-# class Printer:
-#     Name = ""
-#     Actual = ""
-#
-#     def __init__(self, n, a):
-#         self.Name = n
-#         self.Actual = a
+    while True:
+        url = f"https://global.pantum.com/product-center/p-{p}"
+        page = requests.get(url, headers=headers)
+        soup = BS(page.text, 'html.parser')
+        cards = soup.find(class_="pro_list")
+        if not cards:
+            break
+        for card in cards("dl"):  # cards.find_all("dl")
+            is_new_hot_device = card.find("span")
+            is_new_hot_device = is_new_hot_device.text if is_new_hot_device else None
+            printer = card.find("dd").text.strip()
 
-result_data = []
-while True:
-    url = "https://global.pantum.com/product-center/p-" + str(p) + "/#content"
-    page = requests.get(url, headers=headers)
-    save_data = page.text
-    with open("index.html", "w", encoding="utf-8") as file:
-        file.write(save_data)
-
-    with open("index.html") as file:
-        data = file.read()
-
-    soup = BS(data, 'html.parser')
-    is_new_hot_device = printers = None
-    have_data = True
-    try:
-        is_new_hot_device = soup.find("div", class_="pro_list cf").find_all("span")
-        printers = soup.find("div", class_="pro_list cf").find_all("dd")
-        list(is_new_hot_device)
-        list(printers)
-    except Exception:
-        have_data = False
-
-    # with open("pantum_result_data.csc", "w") as file:
-    #     wr = csv.writer(file)
-    #     wr.writerow(
-    #         ("Название_модели", "Актуальность")
-    #     )
-
-    if have_data and len(printers):
-        for i in range(0, len(printers)):
-            if i >= len(is_new_hot_device):
-                #print(printers[i].text.strip())
-                result_data.append(printers[i].text.strip())
-            elif len(is_new_hot_device):
-                #print(printers[i].text.strip() + " " + is_new_hot_device[i].text.strip().upper())
-                result_data.append(printers[i].text.strip() + " " + is_new_hot_device[i].text.strip().upper())
+            wr.writerow((printer, is_new_hot_device))
         p += 1
-    else:
-        break
-print(result_data)
-with open("pantum_result_data.csv", "w") as file:
-    wr = csv.writer(file)
-    wr.writerow(
-            ("Название_модели", "Актуальность")
-       )
-
-with open("pantum_result_data.csv", "a") as file:
-    wr = csv.writer(file)
-    wr.writerows(
-        result_data
-    )
